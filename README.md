@@ -1,2 +1,1 @@
-# VL.-Q
-Set of nodes to use the $Q 2d gesture recognizer
+Set of nodes to use the [http://depts.washington.edu/madlab/proj/dollar/qdollar.html]($Q Super-Quick Recognizer) with vl
