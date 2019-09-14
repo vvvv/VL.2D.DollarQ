@@ -1,1 +1,1 @@
-Set of nodes to use the [http://depts.washington.edu/madlab/proj/dollar/qdollar.html]($Q Super-Quick Recognizer) with vl
+Set of nodes to use the [http://depts.washington.edu/acelab/proj/dollar/qdollar.html]($Q Super-Quick Recognizer) with vl
