@@ -9,7 +9,7 @@
     <projectUrl>http://vvvv.org</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Set of nodes to use the $Q Super-Quick Recognizer in VL</summary>
-    <description>$Q for VL</description>
+    <description>The $Q Super-Quick 2d Gesture Recognizer for VL</description>
     <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
     <tags>VL, $Q, 2d, gesture, recognizer</tags>
   </metadata>
