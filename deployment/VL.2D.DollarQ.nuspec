@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.2D.DollarQ</id>
+    <version>0.2.0-alpha</version>
+    <title>VL.2D.DollarQ</title>
+    <authors>Radu-Daniel Vatavu, Lisa Anthony, Jacob O. Wobbrock, vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/vvvv/VL.2D.DollarQ</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Set of nodes to use the $Q Super-Quick Recognizer in VL</summary>
+    <description>The $Q Super-Quick 2d Gesture Recognizer for VL</description>
+    <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
+    <tags>VL, $Q, 2d, gesture, recognizer</tags>
+	<license type="expression">LGPL-3.0-only</license>
+  </metadata>
+  <files>
+    <file src="..\lib\*.dll" target="lib\net461" exclude="" />
+	<file src="..\lib\GestureSet\**" target="lib\GestureSet" exclude="" />
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+  </files>
+</package>
