@@ -23,7 +23,7 @@ nuget install VL.2D.DollarQ -pre
 
 For more about installing nugets, [read here](https://thegraybook.vvvv.org/reference/libraries/referencing.html).
 
-Once the VL.2D.DollarQ nuget is installed and referenced in your VL document, you'll see the DollarQ category inside 2D in the node browser.
+Once the VL.2D.DollarQ nuget is installed and referenced in your VL document, you'll see the DollarQ category under the 2D category in the node browser.
 
 Open the help browser with <kbd>F1</kbd> and look for "dollar" to find the help patches.
 
