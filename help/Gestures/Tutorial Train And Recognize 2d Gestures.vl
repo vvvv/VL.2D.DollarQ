@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="LouGrKlKkd1O3pbWauulZk" LanguageVersion="2021.3.2.109" Version="0.128">
+  <NugetDependency Id="HWuiBvFHoRTNLdBBIsNEt0" Location="VL.CoreLib" Version="2021.3.2" />
+  <Patch Id="DRbHOD2GywPO5acvSnihGq">
+    <Canvas Id="TB4tdwUODG4NCngXGhcaDz" DefaultCategory="Recognizer" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="QqcaY4dF5XnPaLzEw3Bk6v">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Gt8cPGoGLoiLAPNP9bFxmu">
+        <Canvas Id="PrKOU2FhUvOPUPaMCDtur0" CanvasType="Group">
+          <Node Bounds="135,908,165,19" Id="Tv8mIIJphKJPT2oSy47XKG">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="KQAj3NrjVkFP5vJbfjku1A" Name="Bounds" Kind="InputPin" DefaultValue="1081, 381, 600, 400">
+              <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="CJIwfGIcC0MLoqzXGHFxbc" Name="Bound to Document" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="MTj2jfvYwrNPbhkClp8PGc" Name="Input" Kind="InputPin" />
+            <Pin Id="RbIfVTlM2hfLj22bDjPgbX" Name="Color" Kind="InputPin" />
+            <Pin Id="VKhJEGuassbL8dhHtNOjIw" Name="Clear" Kind="InputPin" />
+            <Pin Id="OAOO1qE05HWPtvHvqG8Y2e" Name="Space" Kind="InputPin" />
+            <Pin Id="NzEEAxjxNfLPqbeX6ZE40Q" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="SZl6IAXMKQ3MNdV1Ydvtxn" Name="VSync" Kind="InputPin" />
+            <Pin Id="MaBUCjM8FA4MxSI0uBmcdT" Name="Enabled" Kind="InputPin" />
+            <Pin Id="QvIQe0IXrHeNgrgK43xNdo" Name="Form" Kind="OutputPin" />
+            <Pin Id="VoLBRTU4aMXPCr7l1d4G71" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="DE8YCCTsdoQL1EVvtJPfgY" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="175,869,44,19" Id="PsowFHaoSFHOFzG8P6EPfN">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Group" />
+            </p:NodeReference>
+            <Pin Id="DQjRgXMtu8QPkI23dmESHn" Name="Input" Kind="InputPin" />
+            <Pin Id="MIgfTNT3aX1N1w9UPCMui8" Name="Input 2" Kind="InputPin" />
+            <Pin Id="DHWw79P5abMPih87D2C96E" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="177,401,105,19" Id="DXXqlczyHsqPiGfRcSltuY">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Mouse" />
+            </p:NodeReference>
+            <Pin Id="C0iMN2kffxrOhgYnFtS6Nu" Name="Context" Kind="OutputPin" />
+            <Pin Id="H5LKL3xecL0Mc3z4QEgtYt" Name="Position In World" Kind="OutputPin" />
+            <Pin Id="CjslcpHMtdcPHykqIzYzpM" Name="Left Pressed" Kind="OutputPin" />
+            <Pin Id="OpoBEZ6W9Y6M8kizYajqZa" Name="Middle Pressed" Kind="OutputPin" />
+            <Pin Id="BmcqIWI2W5VLpEnxaQACVS" Name="Right Pressed" Kind="OutputPin" />
+            <Pin Id="CI5cp7kp5CWNUO8KvLitiw" Name="WheelDelta" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="228,547,86,19" Id="JtypfT0cdrtOrZScxp3TH1">
+            <p:NodeReference LastCategoryFullName="2D.DollarQ" LastSymbolSource="VL.2D.DollarQ.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="StrokeRecorder" />
+            </p:NodeReference>
+            <Pin Id="Uly33k9bchmOqIEKiiv4ja" Name="Input" Kind="InputPin" />
+            <Pin Id="NDFDjQ79goUPwY3GeCkOgC" Name="Record" Kind="InputPin" />
+            <Pin Id="Lc8eq8Lj5kTLJ3DArr5OfD" Name="Clear" Kind="InputPin" />
+            <Pin Id="B8BGlZfeDt3MG19QI2dXOc" Name="Last Stroke" Kind="OutputPin" />
+            <Pin Id="GdzMNrPmGGeOb17BYvw2Fg" Name="Strokes" Kind="OutputPin" />
+          </Node>
+          <Pad Id="SX0cHjOwRqcOWvZEmPtOti" Comment="Save gesture" Bounds="555,429,37,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="309,508,30,19" Id="D8NXFE22M6YMMvRcsyqJ78">
+            <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="OR" />
+            </p:NodeReference>
+            <Pin Id="NfFSxftJcxTMQcn5N6Th8a" Name="Input" Kind="StateInputPin" />
+            <Pin Id="AoLKQJFCrSkO8reMq5qrIB" Name="Input 2" Kind="InputPin" />
+            <Pin Id="Hpf9xScQwcELDgH0DHmmII" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="309,603,41,26" Id="UK5MNGvx43mOGw5ADW1Q3q">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Add" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="Iab0wnOnNqaMob1dcKmtMn" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Btup9DA3bZhNngwPTukzoX" Name="Item" Kind="InputPin" />
+            <Pin Id="VtMK4dStmfSMvoCoDtNF7e" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="297,711,109,106" Id="UE70gsiyNlJMDqeMVgF8r5">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <Pin Id="H6AQUdg9g21NXhLm6pvoh9" Name="Break" Kind="OutputPin" />
+            <Patch Id="SD8KK1Z2MeaMWuHYGx7Ur3" ManuallySortedPins="true">
+              <Patch Id="V3ifWChAg5mN57w3vwaU8S" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="QQAiRFEokAVPEC03pqhKBT" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="BZw6qbDSbIxPGOVCVTIZqA" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="309,754,85,19" Id="CVDp6ZNEWFnMN5CcFrWBiK">
+                <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Polygon" />
+                </p:NodeReference>
+                <Pin Id="CKAQ9ek5vv4OY2skb5lJ5U" Name="Points" Kind="InputPin" />
+                <Pin Id="SVf9eaohh30LBzeLlki3IR" Name="Closed" Kind="InputPin" />
+                <Pin Id="SAX2HvEydZ0Pd51Z5ROHd9" Name="Paint" Kind="InputPin" />
+                <Pin Id="FckLJi74KoEN5tWL9Q6Up0" Name="Winding" Kind="InputPin" />
+                <Pin Id="KGHmYrZtx80LUhHCSqNc0Z" Name="Enabled" Kind="InputPin" />
+                <Pin Id="LB2T3sCOjeIMFTPdkDwBDY" Name="Output" Kind="OutputPin" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="RARr7OR3WZLOPeAWiXgeSk" Bounds="311,717" Alignment="Top" />
+            <ControlPoint Id="AJErZluHahYP8P5T15iWW1" Bounds="311,811" Alignment="Bottom" />
+          </Node>
+          <Node Bounds="349,644,105,19" Id="Psg0ObR1Ti6LHpr2bYRXcl">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Stroke" />
+            </p:NodeReference>
+            <Pin Id="Eu7Ez37GIslPa39qZzjGN7" Name="Input" Kind="InputPin" />
+            <Pin Id="E5Xe6B5GAztNhvMjWCA5w8" Name="Color" Kind="InputPin" />
+            <Pin Id="QstrE1OwDc5PYphfyIQ0lz" Name="Stroke Width" Kind="InputPin" />
+            <Pin Id="FZoxqYi2gibMUQ7xmohSPp" Name="Join" Kind="InputPin" />
+            <Pin Id="O0Nupn93udRM2Lgwzj03xH" Name="Cap" Kind="InputPin" />
+            <Pin Id="JQzLMkcBEnIOQqnbAyVg08" Name="Miter" Kind="InputPin" />
+            <Pin Id="EYMj2TbYoInPzKRbT33TLQ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="309,830,44,19" Id="OQOA57Aqvg9N36bLl61V44">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
+            </p:NodeReference>
+            <Pin Id="ScjOuIiJvh0M0F877L09Bo" Name="Input" Kind="InputPin" />
+            <Pin Id="NyHPNpG8U5FLPSOU4ENbpv" Name="Enabled" Kind="InputPin" />
+            <Pin Id="NPcIxqEeDUXPzqGIQzXRdM" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="466,644,92,19" Id="EyIHZFsvanGMoyuBoMkqnn">
+            <p:NodeReference LastCategoryFullName="2D.DollarQ" LastSymbolSource="VL.2D.DollarQ.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="GestureSetWriter" />
+            </p:NodeReference>
+            <Pin Id="NAoQ163iqNTLxyNgyfjYUF" Name="Path" Kind="InputPin" DefaultValue="..\..\my_gestures.xml\">
+              <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Path" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="LpudDRqNlN7MmmkUZT1Vj1" Name="Strokes" Kind="InputPin" />
+            <Pin Id="N3q59do18SHP5lwh810DS8" Name="Gesture Name" Kind="InputPin" />
+            <Pin Id="GB4lK7GdYLjMltpidHH7wO" Name="Write" Kind="InputPin" />
+          </Node>
+          <Pad Id="QV4RgzCvwX0N2Q8JIMBveb" Comment="Gesture Name" Bounds="526,408,65,15" ShowValueBox="true" isIOBox="true" Value="B">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="334,471,69,19" Id="SAFSD3fE34sMv4OkIYJGki">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FrameDelay" />
+            </p:NodeReference>
+            <Pin Id="MyR52rXK5jlOX9EvYGwqHP" Name="Value" Kind="InputPin" />
+            <Pin Id="JeaIWYemfXMLnZH6T0dePb" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="622,644,96,19" Id="IIx9dILzZZCNDlMXQDksOd">
+            <p:NodeReference LastCategoryFullName="2D.DollarQ" LastSymbolSource="VL.2D.DollarQ.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="GestureSetReader" />
+            </p:NodeReference>
+            <Pin Id="Tqsp6HW6jMjP8LMOP3Q2b9" Name="Path" Kind="InputPin" />
+            <Pin Id="JTN7CaRa7JpQXYilGVPq3m" Name="Read" Kind="InputPin" />
+            <Pin Id="JKoLVKhtVPvNBSh0Td8jci" Name="Gestures" Kind="OutputPin" />
+          </Node>
+          <Pad Id="PhqETgsvRYuNUdqkXwQzUQ" Comment="Path" Bounds="624,477,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\my_gestures">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="622,783,67,19" Id="K8Jz443Yb8oM5bRLUut4qG">
+            <p:NodeReference LastCategoryFullName="2D.DollarQ" LastSymbolSource="VL.2D.DollarQ.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Recognizer (MultiStroke)" />
+            </p:NodeReference>
+            <Pin Id="CDINYSbRqJJQObQtjxo78P" Name="Trained Gestures" Kind="InputPin" />
+            <Pin Id="IcqjM1yxT8AN9LPPSYh6Mr" Name="Candidate" Kind="InputPin" />
+            <Pin Id="B4IF1MtLBnSLdJD6MSV8As" Name="Classify" Kind="InputPin" />
+            <Pin Id="CaXLIP6wH3aQDwsnguqITf" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="SQRlZ0Uq3mJQDfWDg2hsJT" Comment="Classify" Bounds="686,756,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JlFuw08osjjO3Iv6QmbOqH" Comment="Read" Bounds="715,618,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VZ4HhpdfGsJOC7cJi4S8Oy" Comment="Recognized Gesture" Bounds="624,831,69,36" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="HerNf5UF7ZPMBGD5zUVpnI" Bounds="52,66,826,58" ShowValueBox="true" isIOBox="true" Value="$Q is a multi-stroke gesture recognizer, meaning it can learn gestures made of multiples strokes and recognize them later on. The process is simple : you teach the computer what are your gestures by providing several examples for each of them, and then it's able to recognize arbitrary gesture inputs.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AZZz2XtJQmkOnBUNCCMT3b" Bounds="185,550,24,27" ShowValueBox="true" isIOBox="true" Value="1.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="C3mJM0qDv96LiapK0vsp28" Bounds="73,158,24,27" ShowValueBox="true" isIOBox="true" Value="1.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UjNNDggJYpGQCi1PAG8iUx" Bounds="109,157,291,74" ShowValueBox="true" isIOBox="true" Value="Start by drawing a gesture with your left mouse button in the Renderer. You can clear it with a right mouse click. Remember, your gesture can be made of multiple strokes!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TymXmoE0XRtPGy21ezk3Q1" Bounds="477,404,24,27" ShowValueBox="true" isIOBox="true" Value="2.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GwktA1J3VBCND7Zq219yzX" Bounds="73,255,24,27" ShowValueBox="true" isIOBox="true" Value="2.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LbQEOS7nkhCO5rRMqIUUYN" Bounds="109,254,292,96" ShowValueBox="true" isIOBox="true" Value="Now, give your gesture a name, save it and restart this process. You should provide more or less 15 examples of a single gesture to the system. You can create as many gestures as you want.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DAuS55neiRCMDKcTCEawTz" Bounds="671,610,24,27" ShowValueBox="true" isIOBox="true" Value="3.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="FwNyfTnJDoKL2XNqijSWgL" Bounds="510,158,24,27" ShowValueBox="true" isIOBox="true" Value="3.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="D1o8DOuQjWML5tB2VjvSwY" Bounds="545,158,290,59" ShowValueBox="true" isIOBox="true" Value="When you have trained all your gestures, bang the Read pin to read the folder containing your gestures definitions.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="I8Ee97ixXahPs0iOIFXiuq" Bounds="643,746,24,27" ShowValueBox="true" isIOBox="true" Value="4.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LKSrMvAoDopL9BKNlDZTIK" Bounds="509,249,24,27" ShowValueBox="true" isIOBox="true" Value="4.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="KCAI66UzZMSQAn6dwsWuBJ" Bounds="545,249,294,76" ShowValueBox="true" isIOBox="true" Value="Finally, give try the recognizer : draw one of your gestures in the Renderer and bang the Classify pin. The Recognizer will then output the name of the gesture it recognized.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="UqqVJKQwQtiQJOHT1oALh9" Name="" Bounds="57,131,825,230" />
+          <Pad Id="K3mOnyLGo0ONy9R7hIAM2U" Bounds="640,505,146,52" ShowValueBox="true" isIOBox="true" Value="Path to the folder where your gesture definitions will be saved">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">8</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="K7W0WpILdmZLRr3ZRksRIP" Name="Create" />
+        <Patch Id="NfVHumRkbsLNVVpM0AevQW" Name="Update" />
+        <ProcessDefinition Id="T69iqn6TLzYP21hJYUJ6lf">
+          <Fragment Id="AeydgXnFssDLdXiFAjI6RR" Patch="K7W0WpILdmZLRr3ZRksRIP" Enabled="true" />
+          <Fragment Id="LdU4KM9zAY6QUmto7OxqpM" Patch="NfVHumRkbsLNVVpM0AevQW" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="NPFiIK5BozIL4R8WMdpgBp" Ids="DHWw79P5abMPih87D2C96E,MTj2jfvYwrNPbhkClp8PGc" />
+        <Link Id="EWSQ0UXYcCuLId74qK3Czz" Ids="C0iMN2kffxrOhgYnFtS6Nu,DQjRgXMtu8QPkI23dmESHn" />
+        <Link Id="A8cmuvYeajvOni0IJ7Fcdt" Ids="H5LKL3xecL0Mc3z4QEgtYt,Uly33k9bchmOqIEKiiv4ja" />
+        <Link Id="Ezqi1iJt7ZfMbEcPbRSb4G" Ids="CjslcpHMtdcPHykqIzYzpM,NDFDjQ79goUPwY3GeCkOgC" />
+        <Link Id="FoA1VJa55YUOClM88SirMM" Ids="BmcqIWI2W5VLpEnxaQACVS,NfFSxftJcxTMQcn5N6Th8a" />
+        <Link Id="RFWcz2waf8PLGquuwRiKRL" Ids="Hpf9xScQwcELDgH0DHmmII,Lc8eq8Lj5kTLJ3DArr5OfD" />
+        <Link Id="OkF6xtV33ZlMsXFpV5CAqd" Ids="B8BGlZfeDt3MG19QI2dXOc,Btup9DA3bZhNngwPTukzoX" />
+        <Link Id="EByBSkKG1KYNGyyhI2zqtJ" Ids="GdzMNrPmGGeOb17BYvw2Fg,Iab0wnOnNqaMob1dcKmtMn" />
+        <Link Id="MquJBQBKtIrODjBHNDHjsY" Ids="RARr7OR3WZLOPeAWiXgeSk,CKAQ9ek5vv4OY2skb5lJ5U" />
+        <Link Id="MhPCppDy2POMM4M4DVhzR1" Ids="EYMj2TbYoInPzKRbT33TLQ,SAX2HvEydZ0Pd51Z5ROHd9" />
+        <Link Id="MXbp8vJwHawMqFUdev26dR" Ids="LB2T3sCOjeIMFTPdkDwBDY,AJErZluHahYP8P5T15iWW1" />
+        <Link Id="G4v8WwU3nGoLouvfLmUAlt" Ids="AJErZluHahYP8P5T15iWW1,ScjOuIiJvh0M0F877L09Bo" />
+        <Link Id="BcaAB05gHDiOWBdN3id0rM" Ids="NPcIxqEeDUXPzqGIQzXRdM,MIgfTNT3aX1N1w9UPCMui8" />
+        <Link Id="ST56dnQfILUPMVIBzdFy97" Ids="VtMK4dStmfSMvoCoDtNF7e,RARr7OR3WZLOPeAWiXgeSk" />
+        <Link Id="AeLtfDG8YGYLodwFUL3523" Ids="GdzMNrPmGGeOb17BYvw2Fg,LpudDRqNlN7MmmkUZT1Vj1" />
+        <Link Id="SDvMAY0VrUrOuzRAbb5C23" Ids="QV4RgzCvwX0N2Q8JIMBveb,N3q59do18SHP5lwh810DS8" />
+        <Link Id="BxdNRT17CixNkm0Y9LhaCQ" Ids="SX0cHjOwRqcOWvZEmPtOti,MyR52rXK5jlOX9EvYGwqHP" />
+        <Link Id="L99yOb29pIaMdOTbadYycE" Ids="JeaIWYemfXMLnZH6T0dePb,AoLKQJFCrSkO8reMq5qrIB" />
+        <Link Id="Dc0eCqoSqOMQV61r8plBvi" Ids="SX0cHjOwRqcOWvZEmPtOti,GB4lK7GdYLjMltpidHH7wO" />
+        <Link Id="OEjt6WfW5QLPOCNCkmpiIk" Ids="PhqETgsvRYuNUdqkXwQzUQ,NAoQ163iqNTLxyNgyfjYUF" />
+        <Link Id="QlQrdYEOip6OhbC24vetVh" Ids="PhqETgsvRYuNUdqkXwQzUQ,Tqsp6HW6jMjP8LMOP3Q2b9" />
+        <Link Id="AVGzBgvgy9GOkf9GIEeUlF" Ids="JKoLVKhtVPvNBSh0Td8jci,CDINYSbRqJJQObQtjxo78P" />
+        <Link Id="G8kohiIqNDkNFlySu33Mex" Ids="SQRlZ0Uq3mJQDfWDg2hsJT,B4IF1MtLBnSLdJD6MSV8As" />
+        <Link Id="Snk151LJJjgN6AP3qreB8a" Ids="JlFuw08osjjO3Iv6QmbOqH,JTN7CaRa7JpQXYilGVPq3m" />
+        <Link Id="RArTHP1liRcPXqAH0d8olJ" Ids="GdzMNrPmGGeOb17BYvw2Fg,IcqjM1yxT8AN9LPPSYh6Mr" />
+        <Link Id="HJ8RIqgrfcbM539UnN1btd" Ids="CaXLIP6wH3aQDwsnguqITf,VZ4HhpdfGsJOC7cJi4S8Oy" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="AgH23JWYlSfNJtGeEroeJu" Location="VL.Skia" Version="2021.3.2" />
+  <NugetDependency Id="BId5x2l9thzO6ZueNdd9h3" Location="VL.2D.DollarQ" Version="0.0.0.0" />
+</Document>
